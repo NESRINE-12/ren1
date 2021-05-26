@@ -1,0 +1,299 @@
+*{   margin: 0 auto ;
+     font-family: system-ui;
+     color: black;
+}
+.body{
+		width: 80%;
+		float: left;
+}
+header{
+	height: 100px;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	background-color: white;
+	z-index: 2;
+}
+.logo{
+    width: 100px;
+	padding-top: 10px;
+}
+section{
+    background-position: 50% 30%;
+    background-image: url(regoku5.JPG);
+    background-size: 100% 100%;
+    background-position: 50% 30%;
+}
+.center{
+	width: 600px;
+	height: 450px;
+	text-align: center;
+}
+h1{
+	text-shadow: -1px 1px 2px white,
+				  1px 1px 2px white,
+				 1px -1px 0 white,
+				-1px -1px 0 white;
+}
+small{
+	color: #636e72;
+}
+
+.span{
+	border: 1px solid white;
+	box-shadow: 1px -1px 7px white,
+				-1px 1px 7px white,
+				1px 1px 0 white,
+				-1px -1px 0 white;
+	display: block;
+	width: 94px;
+	font-size: 20px;
+	padding: 10px;
+	width: 100px;
+	background-color: white;
+	transition: all .5s ease-in-out;
+}
+.span:hover{
+    border: 1px solid white;
+	font-size: 25px;
+	width: 150px;
+	background-color: #ffa502;
+	color: white;
+}
+
+
+
+/*************************Main****************/
+
+
+
+
+main{
+	height: 600px;
+	width: 80%;
+}
+.mainDivh1q{
+	width: 400px;
+	text-align: center;
+}
+q{
+   color: #636e72;
+}
+aside{
+	height: 700px;
+}
+.section1:hover {
+	transform:translate(1% , 0 );
+}
+.section2:hover {
+	transform:translate(-1% , 0 );
+}
+
+.section1{
+	height: 350px;
+	position: relative;
+	border: 1px solid gray;
+	box-shadow: -10px 10px 10px gray ;
+	right: 1%;
+	transition: all .5s ease-in-out ;
+}
+.section2{
+	margin-top: 15px;
+	height: 350px;
+	position: relative;
+	border: 1px solid gray;
+	box-shadow: 10px 10px 10px gray ;
+	left: 1%;
+	transition: all .5s ease-in-out ;
+}
+.img1{
+	width: 40%;
+	height: 100%;
+	float: left;
+	position: relative;
+	z-index: 1;
+	background-image: url(RENGOKU.jpg);
+	background-size: 100%;
+	box-shadow: 3px 0 10px gray ;
+}
+.talk1{
+	width: 400px;
+	margin: 0 auto;
+	position: absolute;
+	top: 30%;
+    right: 7%;
+    font: 12px;
+}
+.talk2{
+	margin: 0 auto;
+	position: absolute;
+    left: 1%;
+    top: 5%;
+    width: 500px;
+}
+.img2{
+	width: 40%;
+	height: 100%;
+	float: right;
+	transition: all .5s ease-in-out ;
+	position: relative;
+	z-index: 1;
+	background-image: url(RENGOKUo.png);
+	background-size: 100%;
+	box-shadow: -3px 0 10px gray ;
+}
+.clear{
+	clear: both;
+}
+
+
+
+
+
+
+
+/*************************Main****************/
+
+
+
+
+
+
+.footer{
+	 clear: both;
+	 height: 120px;
+}
+footer{
+	padding: 20px;
+	background-color: #EA2027;
+	color: #FFC312;
+	text-align: center;
+	font-size: 35px;
+}
+.return{
+	width: 100px;
+	margin: 1px;
+	position: fixed;
+	top: 24px;
+    left: 44px;
+	display: inline-block;
+	z-index: 2;
+}
+
+
+
+
+
+
+/*************************nav****************/
+
+
+
+
+
+
+nav{
+	height: 100%;
+	width: 20%;
+	float: left;
+	font-size: 20px;
+	margin-top: 40px;
+	color: black;
+	position: fixed;
+	top: -40px;
+	right: 0;
+	text-align: center;
+	z-index: 2;
+}
+nav div {
+
+	 border: solid 2px black;
+	 border-top: none;
+	 padding: 25px;
+	 color: white;
+	 text-shadow: -1px 1px 2px black,
+				  1px 1px 2px black,
+				 1px -1px 0 black,
+				-1px -1px 0 black;
+     transition: all .5s ease-in-out ;
+}
+.Stone {
+	background-image: url(stonehashira.jpg);
+    background-size: 133%;
+    background-position: 83% 32%;
+}
+.Stone:hover{
+	background-size: 160%;
+	font-size: 25px;
+	padding: 18.9px;
+}
+.Water {
+	background-image: url(giyu.jpg);
+    background-size: 133%;
+    background-position: 0% 32%;
+}
+.Water:hover{
+	background-size: 160%;
+	font-size: 25px;
+	padding: 18.9px;
+}
+.wind {
+	background-image: url(wind2.jpg);
+    background-size: 133%;
+    background-position: 10% 32%;
+}
+.wind:hover{
+	background-size: 145%;
+	font-size: 25px;
+	padding: 18.9px;
+}
+.Sound {
+	background-image: url(sound5.jpg);
+    background-size: 133%;
+    background-position: 50% 32%;
+}
+.Sound:hover{
+	background-size: 160%;
+	font-size: 25px;
+	padding: 18.9px;
+}
+.Snake{
+	background-image: url(Snake.jpg);
+    background-size: 133%;
+    background-position: 0% 32%;
+}
+.Snake:hover{
+	background-size: 160%;
+	font-size: 25px;
+	padding: 18.9px;
+}
+.Mist{
+	background-image: url(mist.jpg);
+    background-size: 122%;
+    background-position: 45% 32%;
+}
+.Mist:hover{
+	background-size: 140%;
+	font-size: 25px;
+	padding: 18.9px;
+}
+.Insect{
+	background-image: url(i.jpg);
+    background-size: 130%;
+    background-position: 94% 32%;
+}
+.Insect:hover{
+	background-size: 160%;
+	font-size: 25px;
+	padding: 18.9px;
+}
+.Love{
+	background-image: url(love.jpg);
+    background-size: 120%;
+    background-position: -2% 32%;
+}
+.Love:hover{
+	background-size: 140%;
+	font-size: 25px;
+	padding: 18.9px;
+}
